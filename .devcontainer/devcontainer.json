@@ -1,0 +1,21 @@
+{
+    "name": "OOP Labs",
+    "dockerFile": "Dockerfile",
+    "context": "..",
+    "appPort": [],
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-vscode.cpptools",
+                "vscode.cpptools-extension-pack",
+                "ms-vscode.cmake-tools"
+            ],
+
+            "settings": {
+                "terminal.integrated.shell.linux": "/bin/bash",
+                "C_Cpp.intelliSenseEngine": "default",
+                "C_Cpp.autocomplete": "default"
+            }
+        }
+    }
+}
